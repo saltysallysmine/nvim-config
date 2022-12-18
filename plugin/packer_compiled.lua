@@ -74,15 +74,45 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  LuaSnip = {
+    loaded = true,
+    path = "/home/valery/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    url = "https://github.com/L3MON4D3/LuaSnip"
+  },
   catppuccin = {
     loaded = true,
     path = "/home/valery/.local/share/nvim/site/pack/packer/start/catppuccin",
     url = "https://github.com/catppuccin/nvim"
   },
+  ["cmp-nvim-lsp"] = {
+    loaded = true,
+    path = "/home/valery/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
+  cmp_luasnip = {
+    loaded = true,
+    path = "/home/valery/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
+    url = "https://github.com/saadparwaiz1/cmp_luasnip"
+  },
   gruvbox = {
     loaded = true,
     path = "/home/valery/.local/share/nvim/site/pack/packer/start/gruvbox",
     url = "https://github.com/morhetz/gruvbox"
+  },
+  ["lsp_signature.nvim"] = {
+    loaded = true,
+    path = "/home/valery/.local/share/nvim/site/pack/packer/start/lsp_signature.nvim",
+    url = "https://github.com/ray-x/lsp_signature.nvim"
+  },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "/home/valery/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/home/valery/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -103,6 +133,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/valery/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-jsx-pretty"] = {
+    loaded = true,
+    path = "/home/valery/.local/share/nvim/site/pack/packer/start/vim-jsx-pretty",
+    url = "https://github.com/maxmellon/vim-jsx-pretty"
   }
 }
 

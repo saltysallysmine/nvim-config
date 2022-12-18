@@ -1,3 +1,5 @@
+-- vim.opt.guicursor = ""
+
 vim.opt.mouse = "a"
 
 vim.opt.number = true
