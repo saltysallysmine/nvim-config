@@ -23,5 +23,7 @@ return require('packer').startup(function(use)
     use 'ray-x/lsp_signature.nvim'
     -- vim-js
     -- use 'maxmellon/vim-jsx-pretty'
+    -- emmet
+    use 'mattn/emmet-vim'
 end)
 
