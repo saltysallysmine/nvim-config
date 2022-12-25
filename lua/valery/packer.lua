@@ -25,5 +25,7 @@ return require('packer').startup(function(use)
     -- use 'maxmellon/vim-jsx-pretty'
     -- emmet
     use 'mattn/emmet-vim'
+    -- transparent background
+    use 'xiyaowong/nvim-transparent'
 end)
 
