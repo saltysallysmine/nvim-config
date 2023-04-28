@@ -35,6 +35,12 @@ vim.g.netrw_banner = 0 -- hide banner above files
 vim.g.netrw_liststyle = 3 -- tree instead of plain view
 -- vim.g.netrw_browse_split = 3 -- open file in new tab
 
+-- for vim-emmet
+vim.g.user_emmet_install_global = 0
+vim.cmd [[
+    autocmd FileType html,css EmmetInstall
+]]
+
 -- Settings for russian layout
 vim.keymap.set("", "й", "q")
 vim.keymap.set("", "ц", "w")

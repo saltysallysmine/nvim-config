@@ -27,5 +27,6 @@ return require('packer').startup(function(use)
     use 'mattn/emmet-vim'
     -- transparent background
     use 'xiyaowong/nvim-transparent'
+    -- use 'neoclide/coc.nvim'
 end)
 
