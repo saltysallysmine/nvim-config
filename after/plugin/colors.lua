@@ -1,8 +1,8 @@
 -- local color_conf = {
---   theme = "catppuccin-mocha",
+--   theme = "catppuccin-latte",
 -- }
 -- 
 -- return color_conf
 
-vim.cmd.colorscheme "catppuccin-mocha"
+vim.cmd.colorscheme "catppuccin-latte"
 
