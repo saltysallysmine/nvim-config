@@ -8,6 +8,8 @@ return require('packer').startup(function(use)
     use 'morhetz/gruvbox'  -- colorscheme gruvbox
     -- the best colorscheme in the Galaxy
     use { "catppuccin/nvim", as = "catppuccin" }
+    -- treesitter
+    use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
     -- telescope
     use {
         'nvim-telescope/telescope.nvim',
@@ -26,7 +28,7 @@ return require('packer').startup(function(use)
     -- emmet
     use 'mattn/emmet-vim'
     -- transparent background
-    use 'xiyaowong/nvim-transparent'
+    -- use 'xiyaowong/nvim-transparent'
     -- use 'neoclide/coc.nvim'
 end)
 
