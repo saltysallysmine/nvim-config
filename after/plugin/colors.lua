@@ -5,8 +5,8 @@
 -- return color_conf
 
 -- Catppuccin
--- vim.cmd.colorscheme "catppuccin-mocha"
+vim.cmd.colorscheme "catppuccin-mocha"
 
 -- Gruvbox
-vim.cmd.colorscheme "gruvbox"
-vim.opt.background = "dark"
+-- vim.cmd.colorscheme "gruvbox"
+-- vim.opt.background = "dark"

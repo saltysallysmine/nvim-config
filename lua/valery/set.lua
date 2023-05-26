@@ -13,6 +13,11 @@ if ("%:e" == "py") then
     vim.opt.softtabstop = 4
     vim.opt.shiftwidth = 4
 end
+if ("%:e" == "html") then
+    vim.opt.tabstop = 2
+    vim.opt.softtabstop = 2
+    vim.opt.shiftwidth = 2
+end
 vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
 vim.opt.shiftwidth = 2
